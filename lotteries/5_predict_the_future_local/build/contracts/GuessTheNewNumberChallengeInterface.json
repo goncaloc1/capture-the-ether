@@ -1,0 +1,254 @@
+{
+  "contractName": "GuessTheNewNumberChallengeInterface",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "n",
+          "type": "uint8"
+        }
+      ],
+      "name": "guess",
+      "outputs": [],
+      "payable": true,
+      "stateMutability": "payable",
+      "type": "function"
+    }
+  ],
+  "metadata": "",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.4.26;\n\ncontract GuessTheNewNumberChallengeInterface {\n    function guess(uint8 n) public payable;\n}",
+  "sourcePath": "/home/goncalo/devg/capturetheether/lotteries/4_guess_the_new_number/contracts/GuessTheNewNumberChallengeInterface.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/GuessTheNewNumberChallengeInterface.sol",
+    "exportedSymbols": {
+      "GuessTheNewNumberChallengeInterface": [
+        78
+      ]
+    },
+    "id": 79,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 72,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".26"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 78,
+        "linearizedBaseContracts": [
+          78
+        ],
+        "name": "GuessTheNewNumberChallengeInterface",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 77,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "guess",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 75,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 74,
+                  "name": "n",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 77,
+                  "src": "92:7:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 73,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "92:5:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "91:9:1"
+            },
+            "payable": true,
+            "returnParameters": {
+              "id": 76,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "115:0:1"
+            },
+            "scope": 78,
+            "src": "77:39:1",
+            "stateMutability": "payable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 79,
+        "src": "26:92:1"
+      }
+    ],
+    "src": "0:118:1"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/GuessTheNewNumberChallengeInterface.sol",
+      "exportedSymbols": {
+        "GuessTheNewNumberChallengeInterface": [
+          78
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".26"
+          ]
+        },
+        "id": 72,
+        "name": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": false,
+          "linearizedBaseContracts": [
+            78
+          ],
+          "name": "GuessTheNewNumberChallengeInterface",
+          "scope": 79
+        },
+        "children": [
+          {
+            "attributes": {
+              "body": null,
+              "constant": false,
+              "documentation": null,
+              "implemented": false,
+              "isConstructor": false,
+              "modifiers": [
+                null
+              ],
+              "name": "guess",
+              "payable": true,
+              "scope": 78,
+              "stateMutability": "payable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "n",
+                      "scope": 77,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint8",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint8",
+                          "type": "uint8"
+                        },
+                        "id": 73,
+                        "name": "ElementaryTypeName",
+                        "src": "92:5:1"
+                      }
+                    ],
+                    "id": 74,
+                    "name": "VariableDeclaration",
+                    "src": "92:7:1"
+                  }
+                ],
+                "id": 75,
+                "name": "ParameterList",
+                "src": "91:9:1"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 76,
+                "name": "ParameterList",
+                "src": "115:0:1"
+              }
+            ],
+            "id": 77,
+            "name": "FunctionDefinition",
+            "src": "77:39:1"
+          }
+        ],
+        "id": 78,
+        "name": "ContractDefinition",
+        "src": "26:92:1"
+      }
+    ],
+    "id": 79,
+    "name": "SourceUnit",
+    "src": "0:118:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.26+commit.4563c3fc.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-10-19T14:53:52.944Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
